@@ -13,12 +13,6 @@ twofish.dec(password, data)
 //encrypt CBC
 twofish.encCBC(password, data)
 
-//decrypt
+//decrypt CBC
 twofish.decCBC(password, data, iv)
-
-//encrypt pbkf2 with cbc 
-twofish.encPbkf2(password, salt, iterations, keylen, data)
-
-//decrypt pbkf2 with cbc
-twofish.decPbkf2(password, salt, iterations, keylen, data, iv)
 ```
