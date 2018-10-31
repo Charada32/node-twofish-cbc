@@ -11,7 +11,6 @@ var RNG = function RNG(seed) {
 
     this.state = seed ? seed : Math.floor(Math.random() * (this.m - 1));
   },
-  
   functionUtils = function functionUtils() {
 
     var isAnArray = function isAnArray(someVar) {
@@ -956,6 +955,7 @@ function Twofish() {
     },
     decCBC: function(userKey, iv, chiperText) {
       return decryptCBC(userKey, iv, chiperText);
+    }
   };
 };
 
